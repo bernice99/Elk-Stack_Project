@@ -21,7 +21,7 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly avaliable, in addition to restricting unauthorized access to the network. Load balancers can be defined as the process of distributing traffic across multiple servers. Load balacers serve an important security role by adding an extra layer of security to your websites. It plays a role in protecting websites from hackers and also prevnts DDos attacks. This brings us to the advantage of a jumpbox. It serves as an entry point in providing an all in one access point for administrative tasks. This plays a vital role by protecting other VM's and also serving as the only way to access other VM's within the Resource Group.
+Load balancing ensures that the application will be highly avaliable, in addition to restricting unauthorized access to the network. Load balancers can be defined as the process of distributing traffic across multiple servers. Load balancers serve an important security role by adding an extra layer of security to your websites. It plays a role in protecting websites from hackers and also prevnts DDos attacks. This brings us to the advantage of a jumpbox. It serves as an entry point in providing an all in one access point for administrative tasks. This plays a vital role by protecting other VM's and also serving as the only way to access other VM's within the Resource Group.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic. 
 Filebeat watches for log files and locations specified then collects log events.
